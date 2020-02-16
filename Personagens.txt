@@ -5,3 +5,4 @@ Bilbo 3
 Gandalf
 Smaug
 Gollum
+hobbit
