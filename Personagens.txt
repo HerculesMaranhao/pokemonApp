@@ -1,3 +1,4 @@
 Aragorn
 Legolas 2
 Bilbo 2
+Bilbo 3
