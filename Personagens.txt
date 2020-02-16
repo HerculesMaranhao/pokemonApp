@@ -2,4 +2,7 @@ Aragorn
 Legolas 2
 Bilbo 2
 Bilbo 3
+Gandalf
+Smaug
+Gollum
 hobbit
