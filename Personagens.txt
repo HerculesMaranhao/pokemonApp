@@ -1,11 +1,8 @@
 Aragorn
-Legolas 2
-Bilbo 2
-Bilbo 3
+Legolas 
+Bilbo 
 Gandalf
 Smaug
 Gollum
-hobbit
-teste 1
-teste 2
-teste 3
+Éowin
+Saruman
