@@ -4,4 +4,5 @@ Bilbo
 Gandalf
 Smaug
 Gollum
-Éowyn
+Éowin
+Saruman
