@@ -7,3 +7,4 @@ Gollum
 Éowin
 Saruman
 Frodo
+Balrog
