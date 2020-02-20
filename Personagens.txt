@@ -6,3 +6,4 @@ Smaug
 Gollum
 Éowin
 Saruman
+Frodo
