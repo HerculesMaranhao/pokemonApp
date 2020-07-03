@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PokemonsList from './_organisms/pokemonsList'
 
 class App extends Component {
 
@@ -7,6 +8,7 @@ class App extends Component {
     return(
       <div>
         <h1>Projeto Pokemón</h1>
+        <PokemonsList />
       </div>
     )
   }
