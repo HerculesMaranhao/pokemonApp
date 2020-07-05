@@ -1,6 +1,7 @@
 .pokemonsList {
-  width: 100%;
-  background-color: aquamarine;
-  display: flex;
-  align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

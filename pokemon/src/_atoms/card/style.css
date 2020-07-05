@@ -1,10 +1,63 @@
 .card {
-  width: 300px;
-  height: 400px;
-  border: 1px solid #ccc;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
+    perspective: 1000;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card:hover .card-content .hover {
+    background-color: white;
+    transform: rotateY(180deg);
+}
+
+.card,
+.front,
+.back {
+    width: 300px;
+    height: 400px;
+}
+
+.card-content {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.front {
+    background: #ee4035;
+    background-image: url(./../../assets/img/fundo_card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.back {
+    background: rgba(255, 255, 255, 0.7);
+    background-image: url(./../../assets/img/fundo_card.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-content {
+    transform: rotateY(180deg);
 }
