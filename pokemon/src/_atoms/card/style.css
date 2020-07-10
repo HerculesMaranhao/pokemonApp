@@ -3,12 +3,12 @@
     margin: 5px;
     background-color: white;
     border-radius: 10px;
-    border: 1px solid #ccc;
 }
 
 .card:hover .card-content .hover {
     background-color: white;
     transform: rotateY(180deg);
+    border: 'none';
 }
 
 .card,
@@ -36,6 +36,8 @@
     justify-content: center;
     background: transparent;
     border-radius: 10px;
+    border: 1px solid #ccc;
+
 }
 
 .front {
@@ -52,6 +54,7 @@
     background-position: center;
     background-repeat: repeat-y;
     background-size: contain;
+    cursor: pointer;
 }
 
 .back {
