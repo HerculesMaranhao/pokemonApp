@@ -13,7 +13,8 @@ class PokemonCard extends Component {
       background: 'rgba(255,255,255,0.7)',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      borderRadius: 10
     }}>
       <img
         src={FindPokemonImage(this.props.pokemon ?? '')}
