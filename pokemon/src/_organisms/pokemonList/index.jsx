@@ -67,7 +67,7 @@ class PokemonList extends Component {
 
   state = {
     pagination: {
-      limit: 10,
+      limit: 8,
       offset: 0,
       total: 0
     },
@@ -145,10 +145,10 @@ class PokemonList extends Component {
         <div className="pagination">
           <select className="select"
             onChange={e => this.setState({ pagination: { ...this.state.pagination, limit: e.target.value } }, this.loadPokemons)}>
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
+            <option value="8">8</option>
+            <option value="16">16</option>
+            <option value="32">32</option>
+            <option value="64">64</option>
           </select>
           <button type="button" className="button"
             onClick={this.previousPage}
