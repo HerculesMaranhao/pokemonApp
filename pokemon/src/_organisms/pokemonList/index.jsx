@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import PokemonCard from '../../_molecules/pokemonCard'
 import './style.css'
 
-const pokemons = ['charmander', 'bulbasaur', 'squirtle']
+const pokemons = ['charmander', 'bulbasaur', 'squirtle', 'dratini', 'growlithe', 'meowth', 'raichu', 'mew', 'lapras', 'eevee']
 
 class PokemonList extends Component {
 
