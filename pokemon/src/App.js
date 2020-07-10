@@ -7,7 +7,6 @@ class App extends Component {
 
     return(
       <div>
-        <h1>Projeto Pokemón</h1>
         <PokemonsList />
       </div>
     )

@@ -1,7 +1,72 @@
 .pokemonsList {
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.page {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ee4035;
+    color: #ee4035;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currentPage {
+    border: 1px solid white;
+    color: white;
+    background-color: #ee4035;
+}
+
+.button {
+    min-width: 100px;
+    min-height: 30px;
+    font-size: 14px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #ee4035;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: #ee4035;
+    color: white;
+    cursor: pointer;
+}
+
+.select {
+    min-width: 100px;
+    min-height: 30px;
+    font-size: 14px;
+    margin: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../../assets/img/pokebola.png) no-repeat white;
+    color: #ee4035;
+    background-position: 70px center;
+    font-weight: bold;
+    background-size: 20px 20px;
+    padding: 5px;
+    border: 1px solid #ee4035;
+    border-radius: 4px;
 }
