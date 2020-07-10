@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import PokemonCard from '../../_molecules/pokemonCard'
 import './style.css'
 
-const pokemons = ['charmander', 'bulbasaur', 'squirtle', 'dratini', 'growlithe', 'meowth', 'raichu', 'mew', 'lapras', 'eevee']
+const pokemons = ['bulbasaur', 'ivysaur', 'venosaur', 'charmander', 'charmeleon', 'charizard', 'squirtle', 'wartortle', 'blastoise', 'caterpie', 'metapod', 'butterfree', 'weedle', 'kakuna', 'beedrill', 'pidgey', 'pidgeotto', 'pidgeot', 'rattata', 'raticate', 'spearow', 'fearow', 'ekans', 'arbok', 'pikachu', 'raichu', 'sandshrew', 'sandslash', 'nidoran_f', 'nidorina', 'nidoqueen', 'nidoran_m', 'nidorino', 'nidoking', 'clefairy', 'clefable', 'vulpix', 'ninetales', 'jigglypuff', 'wigglytuff', 'zubat', 'golbat', 'oddish', 'gloom', 'vileplume', 'paras', 'parasect', 'venonat', 'venomoth', 'diglett', 'dugtrio', 'meowth', 'growlithe', 'lapras', 'eevee', 'dratini', 'mew']
 
 class PokemonList extends Component {
 
