@@ -1,7 +1,7 @@
 .pokemonsList {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -48,10 +48,18 @@
     border-radius: 4px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #ee4035;
     color: white;
     cursor: pointer;
+}
+
+.button:disabled,
+.button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
 }
 
 .select {

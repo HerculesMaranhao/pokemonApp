@@ -2,66 +2,7 @@ import React, { Component } from 'react'
 
 import PokemonCard from '../../_molecules/pokemonCard'
 import './style.css'
-
-const pokemons = [
-  'bulbasaur',
-  'ivysaur',
-  'venosaur',
-  'charmander',
-  'charmeleon',
-  'charizard',
-  'squirtle',
-  'wartortle',
-  'blastoise',
-  'caterpie',
-  'metapod',
-  'butterfree',
-  'weedle',
-  'kakuna',
-  'beedrill',
-  'pidgey',
-  'pidgeotto',
-  'pidgeot',
-  'rattata',
-  'raticate',
-  'spearow',
-  'fearow',
-  'ekans',
-  'arbok',
-  'pikachu',
-  'raichu',
-  'sandshrew',
-  'sandslash',
-  'nidoran_f',
-  'nidorina',
-  'nidoqueen',
-  'nidoran_m',
-  'nidorino',
-  'nidoking',
-  'clefairy',
-  'clefable',
-  'vulpix',
-  'ninetales',
-  'jigglypuff',
-  'wigglytuff',
-  'zubat',
-  'golbat',
-  'oddish',
-  'gloom',
-  'vileplume',
-  'paras',
-  'parasect',
-  'venonat',
-  'venomoth',
-  'diglett',
-  'dugtrio',
-  'meowth',
-  'growlithe',
-  'lapras',
-  'eevee',
-  'dratini',
-  'mew'
-]
+import PokemonDataBase from './../../database/pokemon'
 
 class PokemonList extends Component {
 
@@ -71,38 +12,37 @@ class PokemonList extends Component {
       offset: 0,
       total: 0
     },
-    pokemons: []
+    pokemon: []
   }
 
-  loadPokemons = () => {
+  loadPokemon = () => {
     const { pagination } = this.state
     let count = 0
     const startIndex = pagination.offset * pagination.limit
-    const list = pokemons
+    const list = PokemonDataBase
       .filter((x, i) => {
         if (i >= startIndex && count < pagination.limit) {
           count++
           return x
         }
       })
-    this.setState({ pokemons: list, pagination: { ...pagination, total: pokemons.length } })
+    this.setState({ pokemon: list, pagination: { ...pagination, total: PokemonDataBase.length } })
   }
 
   nextPage = () => {
     const { pagination } = this.state
     let qdePages = parseInt(pagination.total / pagination.limit)
     const hasMore = Boolean((pagination.total % pagination.limit) > 0)
-    if(hasMore){
+    if (hasMore) {
       qdePages += 1
     }
-    const offset = (pagination.offset + 1) === qdePages ? pagination.offset : pagination.offset + 1    
-    debugger
+    const offset = (pagination.offset + 1) === qdePages ? pagination.offset : pagination.offset + 1
     this.setState({
       pagination: {
         ...pagination,
         offset
       }
-    }, this.loadPokemons)
+    }, this.loadPokemon)
   }
 
   previousPage = () => {
@@ -111,7 +51,7 @@ class PokemonList extends Component {
         ...this.state.pagination,
         offset: this.state.pagination.offset > 0 ? this.state.pagination.offset - 1 : 0
       }
-    }, this.loadPokemons)
+    }, this.loadPokemon)
   }
 
   renderPages = () => {
@@ -122,29 +62,45 @@ class PokemonList extends Component {
     for (let index = 1; index <= qdePages; index++) {
       pages = [...pages, index]
     }
-    if(hasMore){
+    if (hasMore) {
       pages = [...pages, pages.length + 1]
     }
-    return pages.map((x, i) => (<div className={`page ${pagination.offset === i ? 'currentPage' : ''}`}>{x}</div>))
+    return pages.map((x, i) => (<div key={x} className={`page ${pagination.offset === i ? 'currentPage' : ''}`}>{x}</div>))
+  }
+
+  disabledButton = () => {
+    const { pagination } = this.state
+    let disabledNext = false
+    let disabledPrevious = false
+    if (pagination.offset === 0) {
+      disabledPrevious = true
+    }
+    const qdePages = parseInt(pagination.total / pagination.limit)
+    if (qdePages === pagination.offset) {
+      disabledNext = true
+    }
+    
+    return { disabledNext, disabledPrevious }
+
   }
 
   componentDidMount() {
-    this.loadPokemons()
+    this.loadPokemon()
   }
 
   render() {
 
-    const { pokemons } = this.state
+    const { pokemon } = this.state
 
     return (
       <div>
 
         <div className="pokemonsList">
-          {pokemons.map(p => (<PokemonCard key={p} pokemon={p} />))}
+          {pokemon.map((p, i) => (<PokemonCard key={p.name} pokemon={p} index={i} />))}
         </div>
         <div className="pagination">
           <select className="select"
-            onChange={e => this.setState({ pagination: { ...this.state.pagination, limit: e.target.value } }, this.loadPokemons)}>
+            onChange={e => this.setState({ pagination: { ...this.state.pagination, limit: e.target.value, offset: 0 } }, this.loadPokemon)}>
             <option value="8">8</option>
             <option value="16">16</option>
             <option value="32">32</option>
@@ -152,7 +108,10 @@ class PokemonList extends Component {
           </select>
           <button type="button" className="button"
             onClick={this.previousPage}
-          >Previous</button>
+            disabled={this.disabledButton()?.disabledPrevious}
+          >
+            Previous
+          </button>
           <div className="pages">
             {this.renderPages()}
           </div>
@@ -160,7 +119,10 @@ class PokemonList extends Component {
             type="button"
             className="button"
             onClick={this.nextPage}
-          >Next</button>
+            disabled={this.disabledButton()?.disabledNext}
+          >
+            Next
+          </button>
         </div>
       </div>
     )

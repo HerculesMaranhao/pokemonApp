@@ -1,4 +1,38 @@
 .pokemonCard {
-  display: flex;
-  align-items: center;  
+    display: flex;
+    align-items: center;
+}
+
+.pokemonName {
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ee4035;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+.pokedexButton {
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #ee4035;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px #000;
+    cursor: pointer;
+}
+
+.pokedexButton:hover {
+    background-color: #3165f7;
+    color: white;
 }

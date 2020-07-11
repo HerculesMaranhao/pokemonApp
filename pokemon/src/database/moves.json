@@ -1,0 +1,41 @@
+[{
+        "id": 1,
+        "move": "Tackle",
+        "type": "Normal"
+    },
+    {
+        "id": 2,
+        "move": "Bubble",
+        "type": "Água"
+    },
+    {
+        "id": 3,
+        "move": "Ember",
+        "type": "Fogo"
+    },
+    {
+        "id": 4,
+        "move": "Vine Whip",
+        "type": "Grama"
+    },
+    {
+        "id": 5,
+        "move": "String Shot",
+        "type": "Inseto"
+    },
+    {
+        "id": 6,
+        "move": "Hex",
+        "type": "Fantasma"
+    },
+    {
+        "id": 7,
+        "move": "Sludge Bomb",
+        "type": "Veneno"
+    },
+    {
+        "id": 8,
+        "move": "Bounce",
+        "type": "Voador"
+    }
+]

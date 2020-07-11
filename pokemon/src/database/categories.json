@@ -1,0 +1,17 @@
+[{
+        "id": 1,
+        "category": "Normal"
+    },
+    {
+        "id": 2,
+        "category": "Lendário"
+    },
+    {
+        "id": 3,
+        "category": "Pseudo-lendário"
+    },
+    {
+        "id": 4,
+        "category": "Mítico"
+    }
+]

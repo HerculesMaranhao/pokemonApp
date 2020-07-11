@@ -1,0 +1,75 @@
+[{
+        "id": 1,
+        "name": "Grama"
+    },
+    {
+        "id": 2,
+        "name": "Fogo"
+    },
+    {
+        "id": 3,
+        "name": "Água"
+    },
+    {
+        "id": 4,
+        "name": "Voador"
+    },
+    {
+        "id": 5,
+        "name": "Lutador"
+    },
+    {
+        "id": 6,
+        "name": "Inseto"
+    },
+    {
+        "id": 7,
+        "name": "Psíquico"
+    },
+
+    {
+        "id": 8,
+        "name": "Normal"
+    },
+    {
+        "id": 9,
+        "name": "Sombrio"
+    },
+    {
+        "id": 10,
+        "name": "Fantasma"
+    },
+    {
+        "id": 11,
+        "name": "Dragão"
+    },
+    {
+        "id": 12,
+        "name": "Gelo"
+    },
+    {
+        "id": 13,
+        "name": "Pedra"
+    },
+    {
+        "id": 14,
+        "name": "Terra"
+    },
+    {
+        "id": 15,
+        "name": "Aço"
+    },
+    {
+        "id": 16,
+        "name": "Elétrico"
+    },
+    {
+        "id": 17,
+        "name": "Veneno"
+    },
+    {
+        "id": 18,
+        "name": "Fada"
+    }
+
+]

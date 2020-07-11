@@ -5,7 +5,7 @@
     border-radius: 10px;
 }
 
-.card:hover .card-content .hover {
+.hoverCard:hover .card-content .hover {
     background-color: white;
     transform: rotateY(180deg);
     border: 'none';
@@ -18,15 +18,18 @@
     height: 400px;
 }
 
-.card-content {
+.hoverCardContent {
     transition: 1s;
     transform-style: preserve-3d;
+}
+
+.card-content {
     position: relative;
 }
 
 .front,
 .back {
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +40,6 @@
     background: transparent;
     border-radius: 10px;
     border: 1px solid #ccc;
-
 }
 
 .front {
@@ -54,13 +56,12 @@
     background-position: center;
     background-repeat: repeat-y;
     background-size: contain;
-    cursor: pointer;
 }
 
-.back {
+.hoverBack {
     transform: rotateY(180deg);
 }
 
-.card:hover .card-content {
+.hoverCard:hover .hoverCardContent {
     transform: rotateY(180deg);
 }

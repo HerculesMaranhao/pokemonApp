@@ -50,10 +50,104 @@ import Venomoth from './049.png'
 import Diglett from './050.png'
 import Dugtrio from './051.png'
 import Meowth from './052.png'
+import Persian from './053.png'
+import Psyduck from './054.png'
+import Golduck from './055.png'
+import Mankey from './056.png'
+import Primeape from './057.png'
 import Growlithe from './058.png'
+import Arcanine from './059.png'
+import Poliwag from './060.png'
+import Poliwhirl from './061.png'
+import Poliwrath from './062.png'
+import Abra from './063.png'
+import Kadabra from './064.png'
+import Alakazam from './065.png'
+import Machop from './066.png'
+import Machoke from './067.png'
+import Machamp from './068.png'
+import Bellsprout from './069.png'
+import Weepinbell from './070.png'
+import Victreebell from './071.png'
+import Tentacool from './072.png'
+import Tentacruel from './073.png'
+import Geodude from './074.png'
+import Graveler from './075.png'
+import Golem from './076.png'
+import Ponyta from './077.png'
+import Rapidash from './078.png'
+import Slowpoke from './079.png'
+import Slowbro from './080.png'
+import Magnemite from './081.png'
+import Magneton from './082.png'
+import Farfetch_d from './083.png'
+import Doduo from './084.png'
+import Dodrio from './085.png'
+import Seel from './086.png'
+import Dewgong from './087.png'
+import Grimer from './088.png'
+import Muk from './089.png'
+import Shellder from './090.png'
+import Cloyster from './091.png'
+import Gastly from './092.png'
+import Haunter from './093.png'
+import Gengar from './094.png'
+import Onix from './095.png'
+import Drowzee from './096.png'
+import Hypno from './097.png'
+import Krabby from './098.png'
+import Kingler from './099.png'
+import Voltorb from './100.png'
+import Electrode from './101.png'
+import Exeggcute from './102.png'
+import Exeggutor from './103.png'
+import Cubone from './104.png'
+import Marowak from './105.png'
+import Hitmonlee from './106.png'
+import Hitmonchan from './107.png'
+import Licktung from './108.png'
+import Koffing from './109.png'
+import Weezing from './110.png'
+import Rhyhorn from './111.png'
+import Rhydon from './112.png'
+import Chansey from './113.png'
+import Tangela from './114.png'
+import Kangaskhan from './115.png'
+import Horsea from './116.png'
+import Seadra from './117.png'
+import Goldeen from './118.png'
+import Seaking from './119.png'
+import Staryu from './120.png'
+import Starmie from './121.png'
+import Mr_Mime from './122.png'
+import Scyther from './123.png'
+import Jynx from './124.png'
+import Electabuzz from './125.png'
+import Magmar from './126.png'
+import Pinsir from './127.png'
+import Tauros from './128.png'
+import Magikarp from './129.png'
+import Gyarados from './130.png'
 import Lapras from './131.png'
+import Ditto from './132.png'
 import Eevee from './133.png'
+import Vaporeon from './134.png'
+import Jolteon from './135.png'
+import Flareon from './136.png'
+import Porygon from './137.png'
+import Omanyte from './138.png'
+import Omastar from './139.png'
+import Kabuto from './140.png'
+import Kabutops from './141.png'
+import Aerodactyl from './142.png'
+import Snorlax from './143.png'
+import Articuno from './144.png'
+import Zapdos from './145.png'
+import Moltres from './146.png'
 import Dratini from './147.png'
+import Dragonair from './148.png'
+import Dragonite from './149.png'
+import Mewtwo from './150.png'
 import Mew from './151.png'
 
 export const FindPokemonImage = pokemon => {
@@ -63,13 +157,13 @@ export const FindPokemonImage = pokemon => {
         case 'ivysaur':
             return Ivysaur
         case 'venosaur':
-            return Venosaur            
+            return Venosaur
         case 'charmander':
             return Charmander
         case 'charmeleon':
             return Charmeleon
         case 'charizard':
-            return Charizard            
+            return Charizard
         case 'squirtle':
             return Squirtle
         case 'wartortle':
@@ -162,16 +256,204 @@ export const FindPokemonImage = pokemon => {
             return Dugtrio
         case 'meowth':
             return Meowth
+        case 'persian':
+            return Persian
+        case 'psyduck':
+            return Psyduck
+        case 'golduck':
+            return Golduck
+        case 'mankey':
+            return Mankey
+        case 'primeape':
+            return Primeape
         case 'growlithe':
             return Growlithe
+        case 'arcanine':
+            return Arcanine
+        case 'poliwag':
+            return Poliwag
+        case 'poliwhril':
+            return Poliwhirl
+        case 'poliwrath':
+            return Poliwrath
+        case 'abra':
+            return Abra
+        case 'kadabra':
+            return Kadabra
+        case 'alakazam':
+            return Alakazam
+        case 'machop':
+            return Machop
+        case 'machoke':
+            return Machoke
+        case 'machamp':
+            return Machamp
+        case 'bellsprout':
+            return Bellsprout
+        case 'weepinbell':
+            return Weepinbell
+        case 'victreebell':
+            return Victreebell
+        case 'tentacool':
+            return Tentacool
+        case 'tentacruel':
+            return Tentacruel
+        case 'geodude':
+            return Geodude
+        case 'graveler':
+            return Graveler
+        case 'golem':
+            return Golem
+        case 'ponyta':
+            return Ponyta
+        case 'rapidash':
+            return Rapidash
+        case 'slowpoke':
+            return Slowpoke
+        case 'slowbro':
+            return Slowbro
+        case 'magnemite':
+            return Magnemite
+        case 'magneton':
+            return Magneton
+        case 'farfetch_d':
+            return Farfetch_d
+        case 'doduo':
+            return Doduo
+        case 'dodrio':
+            return Dodrio
+        case 'seel':
+            return Seel
+        case 'dewgong':
+            return Dewgong
+        case 'grimer':
+            return Grimer
+        case 'muk':
+            return Muk
+        case 'shellder':
+            return Shellder
+        case 'cloyster':
+            return Cloyster
+        case 'gastly':
+            return Gastly
+        case 'haunter':
+            return Haunter
+        case 'gengar':
+            return Gengar
+        case 'onix':
+            return Onix
+        case 'drowzee':
+            return Drowzee
+        case 'hypno':
+            return Hypno
+        case 'krabby':
+            return Krabby
+        case 'kingler':
+            return Kingler
+        case 'voltorb':
+            return Voltorb
+        case 'electrode':
+            return Electrode
+        case 'exeggcute':
+            return Exeggcute
+        case 'exeggutor':
+            return Exeggutor
+        case 'cubone':
+            return Cubone
+        case 'marowak':
+            return Marowak
+        case 'hitmonlee':
+            return Hitmonlee
+        case 'hitmonchan':
+            return Hitmonchan
+        case 'licktung':
+            return Licktung
+        case 'koffing':
+            return Koffing
+        case 'weezing':
+            return Weezing
+        case 'rhyhorn':
+            return Rhyhorn
+        case 'rhydon':
+            return Rhydon
+        case 'chansey':
+            return Chansey
+        case 'tangela':
+            return Tangela
+        case 'kangaskhan':
+            return Kangaskhan
+        case 'horsea':
+            return Horsea
+        case 'seadra':
+            return Seadra
+        case 'goldeen':
+            return Goldeen
+        case 'seaking':
+            return Seaking
+        case 'staryu':
+            return Staryu
+        case 'starmie':
+            return Starmie
+        case 'mr_mime':
+            return Mr_Mime
+        case 'scyther':
+            return Scyther
+        case 'jynx':
+            return Jynx
+        case 'electabuzz':
+            return Electabuzz
+        case 'magmar':
+            return Magmar
+        case 'pinsir':
+            return Pinsir
+        case 'tauros':
+            return Tauros
+        case 'magikarp':
+            return Magikarp
+        case 'gyarados':
+            return Gyarados
         case 'lapras':
             return Lapras
+        case 'ditto':
+            return Ditto
         case 'eevee':
-           return Eevee  
+            return Eevee
+        case 'vaporeon':
+            return Vaporeon
+        case 'jolteon':
+            return Jolteon
+        case 'flareon':
+            return Flareon
+        case 'porygon':
+            return Porygon
+        case 'omanite':
+            return Omanyte
+        case 'omastar':
+            return Omastar
+        case 'kabuto':
+            return Kabuto
+        case 'kabutops':
+            return Kabutops
+        case 'aerodactyl':
+            return Aerodactyl
+        case 'snorlax':
+            return Snorlax
+        case 'articuno':
+            return Articuno
+        case 'zapdos':
+            return Zapdos
+        case 'moltres':
+            return Moltres
         case 'dratini':
             return Dratini
+        case 'dragonair':
+            return Dragonair
+        case 'dragonite':
+            return Dragonite
+        case 'mewtwo':
+            return Mewtwo
         case 'mew':
-            return Mew  
+            return Mew
         default:
             break;
     }
