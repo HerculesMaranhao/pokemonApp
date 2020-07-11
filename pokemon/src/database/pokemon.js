@@ -1,1362 +1,1815 @@
 import { FindPokemonImage } from './../assets/img/pokemons'
 
 export default [{
+        "id": "#001",
         "photo": FindPokemonImage('bulbasaur'),
-        "name": "#001 Bulbasaur",
+        "name": "Bulbasaur",
         "alias": "",
         "types": [],
         "egg_groups": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#002",
         "photo": FindPokemonImage('ivysaur'),
-        "name": "#002 Ivysaur",
+        "name": "Ivysaur",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#003",
         "photo": FindPokemonImage('venosaur'),
-        "name": "#003 Venosaur",
+        "name": "Venosaur",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#004",
         "photo": FindPokemonImage('charmander'),
-        "name": "#004 Charmander",
+        "name": "Charmander",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#005",
         "photo": FindPokemonImage('charmeleon'),
-        "name": "#005 Charmeleon",
+        "name": "Charmeleon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#006",
         "photo": FindPokemonImage('charizard'),
-        "name": "#006 Charizard",
+        "name": "Charizard",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#007",
         "photo": FindPokemonImage('squirtle'),
-        "name": "#007 Squirtle",
+        "name": "Squirtle",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#008",
         "photo": FindPokemonImage('wartortle'),
-        "name": "#008 Wartortle",
+        "name": "Wartortle",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#009",
         "photo": FindPokemonImage('blastoise'),
-        "name": "#009 Blastoise",
+        "name": "Blastoise",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#010",
         "photo": FindPokemonImage('caterpie'),
-        "name": "#010 Caterpie",
+        "name": "Caterpie",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#011",
         "photo": FindPokemonImage('metapod'),
-        "name": "#011 Metapod",
+        "name": "Metapod",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#012",
         "photo": FindPokemonImage('butterfree'),
-        "name": "#012 Butterfree",
+        "name": "Butterfree",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#013",
         "photo": FindPokemonImage('weedle'),
-        "name": "#013 Weedle",
+        "name": "Weedle",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#014",
         "photo": FindPokemonImage('kakuna'),
-        "name": "#014 Kakuna",
+        "name": "Kakuna",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#015",
         "photo": FindPokemonImage('beedrill'),
-        "name": "#015 Beedrill",
+        "name": "Beedrill",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#016",
         "photo": FindPokemonImage('pidgey'),
-        "name": "#016 Pidgey",
+        "name": "Pidgey",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#017",
         "photo": FindPokemonImage('pidgeotto'),
-        "name": "#017 Pidgeotto",
+        "name": "Pidgeotto",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#018",
         "photo": FindPokemonImage('pidgeot'),
-        "name": "#018 Pidgeot",
+        "name": "Pidgeot",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#019",
         "photo": FindPokemonImage('rattata'),
-        "name": "#019 Rattata",
+        "name": "Rattata",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#020 ",
         "photo": FindPokemonImage('raticate'),
-        "name": "#020 Raticate",
+        "name": "Raticate",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#021",
         "photo": FindPokemonImage('spearow'),
-        "name": "#021 Spearow",
+        "name": "Spearow",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#022",
         "photo": FindPokemonImage('fearow'),
-        "name": "#022 Fearow",
+        "name": "Fearow",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#023",
         "photo": FindPokemonImage('ekans'),
-        "name": "#023 Ekans",
+        "name": "Ekans",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#024",
         "photo": FindPokemonImage('arbok'),
-        "name": "#024 Arbok",
+        "name": "Arbok",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#025",
         "photo": FindPokemonImage('pikachu'),
-        "name": "#025 Pikachu",
+        "name": "Pikachu",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#026",
         "photo": FindPokemonImage('raichu'),
-        "name": "#026 Raichu",
+        "name": "Raichu",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#027",
         "photo": FindPokemonImage('sandshrew'),
-        "name": "#027 Sandshrew",
+        "name": "Sandshrew",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#028",
         "photo": FindPokemonImage('sandslash'),
-        "name": "#028 Sandslash",
+        "name": "Sandslash",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#029",
         "photo": FindPokemonImage('nidoran_f'),
-        "name": "#029 Nidoran ♀",
+        "name": "Nidoran ♀",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#030",
         "photo": FindPokemonImage('nidorina'),
-        "name": "#030 Nidorina",
+        "name": "Nidorina",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#031",
         "photo": FindPokemonImage('nidoqueen'),
-        "name": "#031 Nidoqueen",
+        "name": "Nidoqueen",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#032",
         "photo": FindPokemonImage('nidoran_m'),
-        "name": "#032 Nidoran ♂",
+        "name": "Nidoran ♂",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#033",
         "photo": FindPokemonImage('nidorino'),
-        "name": "#033 Nidorino",
+        "name": "Nidorino",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#034",
         "photo": FindPokemonImage('nidoking'),
-        "name": "#034 Nidoking",
+        "name": "Nidoking",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#035",
         "photo": FindPokemonImage('clefairy'),
-        "name": "#035 Clefairy",
+        "name": "Clefairy",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#036",
         "photo": FindPokemonImage('clefable'),
-        "name": "#036 Clefable",
+        "name": "Clefable",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#037",
         "photo": FindPokemonImage('vulpix'),
-        "name": "#037 Vulpix",
+        "name": "Vulpix",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#038",
         "photo": FindPokemonImage('ninetales'),
-        "name": "#038 Ninetales",
+        "name": "Ninetales",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#039",
         "photo": FindPokemonImage('jigglypuff'),
-        "name": "#039 Jigglypuff",
+        "name": "Jigglypuff",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#040",
         "photo": FindPokemonImage('wigglytuff'),
-        "name": "#040 Wigglytuff",
+        "name": "Wigglytuff",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#041",
         "photo": FindPokemonImage('zubat'),
-        "name": "#041 Zubat",
+        "name": "Zubat",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#042",
         "photo": FindPokemonImage('golbat'),
-        "name": "#042 Golbat",
+        "name": "Golbat",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#043",
         "photo": FindPokemonImage('oddish'),
-        "name": "#043 Oddish",
+        "name": "Oddish",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#044",
         "photo": FindPokemonImage('gloom'),
-        "name": "#044 Gloom",
+        "name": "Gloom",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#045",
         "photo": FindPokemonImage('vileplume'),
-        "name": "#045 Vileplume",
+        "name": "Vileplume",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#046",
         "photo": FindPokemonImage('paras'),
-        "name": "#046 Paras",
+        "name": "Paras",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#047",
         "photo": FindPokemonImage('parasect'),
-        "name": "#047 Parasect",
+        "name": "Parasect",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#048",
         "photo": FindPokemonImage('venonat'),
-        "name": "#048 Venonat",
+        "name": "Venonat",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#049",
         "photo": FindPokemonImage('venomoth'),
-        "name": "#049 Venomoth",
+        "name": "Venomoth",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#050",
         "photo": FindPokemonImage('diglett'),
-        "name": "#050 Diglett",
+        "name": "Diglett",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#051",
         "photo": FindPokemonImage('dugtrio'),
-        "name": "#051 Dugtrio",
+        "name": "Dugtrio",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#052",
         "photo": FindPokemonImage('meowth'),
-        "name": "#052 Meowth",
+        "name": "Meowth",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#053",
         "photo": FindPokemonImage('persian'),
-        "name": "#053 Persian",
+        "name": "Persian",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#054",
         "photo": FindPokemonImage('psyduck'),
-        "name": "#054 Psyduck",
+        "name": "Psyduck",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#055",
         "photo": FindPokemonImage('golduck'),
-        "name": "#055 Golduck",
+        "name": "Golduck",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#056",
         "photo": FindPokemonImage('mankey'),
-        "name": "#056 Mankey",
+        "name": "Mankey",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#057",
         "photo": FindPokemonImage('primeape'),
-        "name": "#057 Primeape",
+        "name": "Primeape",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#058",
         "photo": FindPokemonImage('growlithe'),
-        "name": "#058 Growlithe",
+        "name": "Growlithe",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#059",
         "photo": FindPokemonImage('arcanine'),
-        "name": "#059 Arcanine",
+        "name": "Arcanine",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#060",
         "photo": FindPokemonImage('poliwag'),
-        "name": "#060 Poliwag",
+        "name": "Poliwag",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#061",
         "photo": FindPokemonImage('poliwhirl'),
-        "name": "#061 Poliwhirl",
+        "name": "Poliwhirl",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#062",
         "photo": FindPokemonImage('poliwrath'),
-        "name": "#062 Poliwrath",
+        "name": "Poliwrath",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#063",
         "photo": FindPokemonImage('abra'),
-        "name": "#063 Abra",
+        "name": "Abra",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#064",
         "photo": FindPokemonImage('kadabra'),
-        "name": "#064 Kadabra",
+        "name": "Kadabra",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#065",
         "photo": FindPokemonImage('alakazam'),
-        "name": "#065 Alakazam",
+        "name": "Alakazam",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#066",
         "photo": FindPokemonImage('machop'),
-        "name": "#066 Machop",
+        "name": "Machop",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#067",
         "photo": FindPokemonImage('machoke'),
-        "name": "#067 Machoke",
+        "name": "Machoke",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#068",
         "photo": FindPokemonImage('machamp'),
-        "name": "#068 Machamp",
+        "name": "Machamp",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#069",
         "photo": FindPokemonImage('bellsprout'),
-        "name": "#069 Bellsprout",
+        "name": "Bellsprout",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#070",
         "photo": FindPokemonImage('weepinbell'),
-        "name": "#070 Weepinbell",
+        "name": "Weepinbell",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#071",
         "photo": FindPokemonImage('victreebell'),
-        "name": "#071 Victreebell",
+        "name": "Victreebell",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#072",
         "photo": FindPokemonImage('tentacool'),
-        "name": "#072 Tentacool",
+        "name": "Tentacool",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#073",
         "photo": FindPokemonImage('tentacruel'),
-        "name": "#073 Tentacruel",
+        "name": "Tentacruel",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#074",
         "photo": FindPokemonImage('geodude'),
-        "name": "#074 Geodude",
+        "name": "Geodude",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#075",
         "photo": FindPokemonImage('graveler'),
-        "name": "#075 Graveler",
+        "name": "Graveler",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#076",
         "photo": FindPokemonImage('golem'),
-        "name": "#076 Golem",
+        "name": "Golem",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#077",
         "photo": FindPokemonImage('ponyta'),
-        "name": "#077 Ponyta",
+        "name": "Ponyta",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#078",
         "photo": FindPokemonImage('rapidash'),
-        "name": "#078 Rapidash",
+        "name": "Rapidash",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#079",
         "photo": FindPokemonImage('slowpoke'),
-        "name": "#079 Slowpoke",
+        "name": "Slowpoke",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#080",
         "photo": FindPokemonImage('slowbro'),
-        "name": "#080 Slowbro",
+        "name": "Slowbro",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#081",
         "photo": FindPokemonImage('magnemite'),
-        "name": "#081 Magnemite",
+        "name": "Magnemite",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#082",
         "photo": FindPokemonImage('magneton'),
-        "name": "#082 Magneton",
+        "name": "Magneton",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#083",
         "photo": FindPokemonImage('farfetch_d'),
-        "name": "#083 Farfetch'd",
+        "name": "Farfetch'd",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#084",
         "photo": FindPokemonImage('doduo'),
-        "name": "#084 Doduo",
+        "name": "Doduo",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#085",
         "photo": FindPokemonImage('dodrio'),
-        "name": "#085 Dodrio",
+        "name": "Dodrio",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#086",
         "photo": FindPokemonImage('seel'),
-        "name": "#086 Seel",
+        "name": "Seel",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#087",
         "photo": FindPokemonImage('dewgong'),
-        "name": "#087 Dewgong",
+        "name": "Dewgong",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#088",
         "photo": FindPokemonImage('grimer'),
-        "name": "#088 Grimer",
+        "name": "Grimer",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#089",
         "photo": FindPokemonImage('muk'),
-        "name": "#089 Muk",
+        "name": "Muk",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#090",
         "photo": FindPokemonImage('shellder'),
-        "name": "#090 Shellder",
+        "name": "Shellder",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#091",
         "photo": FindPokemonImage('cloyster'),
-        "name": "#091 Cloyster",
+        "name": "Cloyster",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#092",
         "photo": FindPokemonImage('gastly'),
-        "name": "#092 Gastly",
+        "name": "Gastly",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#093",
         "photo": FindPokemonImage('haunter'),
-        "name": "#093 Haunter",
+        "name": "Haunter",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#094",
         "photo": FindPokemonImage('gengar'),
-        "name": "#094 Gengar",
+        "name": "Gengar",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#095",
         "photo": FindPokemonImage('onix'),
-        "name": "#095 Onix",
+        "name": "Onix",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#096",
         "photo": FindPokemonImage('drowzee'),
-        "name": "#096 Drowzee",
+        "name": "Drowzee",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#097",
         "photo": FindPokemonImage('hypno'),
-        "name": "#097 Hypno",
+        "name": "Hypno",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#098",
         "photo": FindPokemonImage('krabby'),
-        "name": "#098 Krabby",
+        "name": "Krabby",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#099",
         "photo": FindPokemonImage('kingler'),
-        "name": "#099 Kingler",
+        "name": "Kingler",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#100",
         "photo": FindPokemonImage('voltorb'),
-        "name": "#100 Voltorb",
+        "name": "Voltorb",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#101",
         "photo": FindPokemonImage('electrode'),
-        "name": "#101 Electrode",
+        "name": "Electrode",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#102",
         "photo": FindPokemonImage('exeggcute'),
-        "name": "#102 exeggcute",
+        "name": "exeggcute",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#103",
         "photo": FindPokemonImage('exeggutor'),
-        "name": "#103 Exeggutor",
+        "name": "Exeggutor",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#104",
         "photo": FindPokemonImage('cubone'),
-        "name": "#104 Cubone",
+        "name": "Cubone",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#105",
         "photo": FindPokemonImage('marowak'),
-        "name": "#105 Marowak",
+        "name": "Marowak",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#106",
         "photo": FindPokemonImage('hitmonlee'),
-        "name": "#106 Hitmonlee",
+        "name": "Hitmonlee",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#107",
         "photo": FindPokemonImage('hitmonchan'),
-        "name": "#107 Hitmonchan",
+        "name": "Hitmonchan",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#108",
         "photo": FindPokemonImage('licktung'),
-        "name": "#108 Licktung",
+        "name": "Licktung",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#109",
         "photo": FindPokemonImage('koffing'),
-        "name": "#109 Koffing",
+        "name": "Koffing",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#110",
         "photo": FindPokemonImage('weezing'),
-        "name": "#110 Weezing",
+        "name": "Weezing",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#111",
         "photo": FindPokemonImage('rhyhorn'),
-        "name": "#111 Rhyhorn",
+        "name": "Rhyhorn",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#112",
         "photo": FindPokemonImage('rhydon'),
-        "name": "#112 Rhydon",
+        "name": "Rhydon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#113",
         "photo": FindPokemonImage('chansey'),
-        "name": "#113 Chansey",
+        "name": "Chansey",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#114",
         "photo": FindPokemonImage('tangela'),
-        "name": "#114 Tangela",
+        "name": "Tangela",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#115",
         "photo": FindPokemonImage('kangaskhan'),
-        "name": "#115 Kangaskhan",
+        "name": "Kangaskhan",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#116",
         "photo": FindPokemonImage('horsea'),
-        "name": "#116 Horsea",
+        "name": "Horsea",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#117",
         "photo": FindPokemonImage('seadra'),
-        "name": "#117 Seadra",
+        "name": "Seadra",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#118",
         "photo": FindPokemonImage('goldeen'),
-        "name": "#118 Goldeen",
+        "name": "Goldeen",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#119",
         "photo": FindPokemonImage('seaking'),
-        "name": "#119 Seaking",
+        "name": "Seaking",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#120",
         "photo": FindPokemonImage('staryu'),
-        "name": "#120 Staryu",
+        "name": "Staryu",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#121",
         "photo": FindPokemonImage('starmie'),
-        "name": "#121 Starmie",
+        "name": "Starmie",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#122",
         "photo": FindPokemonImage('mr_mime'),
-        "name": "#122 Mr. Mime",
+        "name": "Mr. Mime",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#123",
         "photo": FindPokemonImage('scyther'),
-        "name": "#123 Scyther",
+        "name": "Scyther",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#124",
         "photo": FindPokemonImage('jynx'),
-        "name": "#124 Jynx",
+        "name": "Jynx",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#125",
         "photo": FindPokemonImage('electabuzz'),
-        "name": "#125 Electabuzz",
+        "name": "Electabuzz",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#126",
         "photo": FindPokemonImage('magmar'),
-        "name": "#126 Magmar",
+        "name": "Magmar",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#127",
         "photo": FindPokemonImage('pinsir'),
-        "name": "#127 Pinsir",
+        "name": "Pinsir",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#128",
         "photo": FindPokemonImage('tauros'),
-        "name": "#128 Tauros",
+        "name": "Tauros",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#129",
         "photo": FindPokemonImage('magikarp'),
-        "name": "#129 Magikarp",
+        "name": "Magikarp",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#130",
         "photo": FindPokemonImage('gyarados'),
-        "name": "#130 Gyarados",
+        "name": "Gyarados",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#131",
         "photo": FindPokemonImage('lapras'),
-        "name": "#131 Lapras",
+        "name": "Lapras",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#132",
         "photo": FindPokemonImage('ditto'),
-        "name": "#132 Ditto",
+        "name": "Ditto",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#133",
         "photo": FindPokemonImage('eevee'),
-        "name": "#133 Eevee",
+        "name": "Eevee",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#134",
         "photo": FindPokemonImage('vaporeon'),
-        "name": "#134 Vaporeon",
+        "name": "Vaporeon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#135",
         "photo": FindPokemonImage('jolteon'),
-        "name": "#135 Jolteon",
+        "name": "Jolteon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#136",
         "photo": FindPokemonImage('flareon'),
-        "name": "#136 Flareon",
+        "name": "Flareon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#137",
         "photo": FindPokemonImage('porygon'),
-        "name": "#137 Porygon",
+        "name": "Porygon",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#138",
         "photo": FindPokemonImage('omanyte'),
-        "name": "#138 Omanyte",
+        "name": "Omanyte",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#139",
         "photo": FindPokemonImage('omastar'),
-        "name": "#139 Omastar",
+        "name": "Omastar",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#140",
         "photo": FindPokemonImage('kabuto'),
-        "name": "#140 Kabuto",
+        "name": "Kabuto",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#141",
         "photo": FindPokemonImage('kabutops'),
-        "name": "#141 Kabutops",
+        "name": "Kabutops",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#142",
         "photo": FindPokemonImage('aerodactyl'),
-        "name": "#142 Aerodactyl",
+        "name": "Aerodactyl",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#143",
         "photo": FindPokemonImage('snorlax'),
-        "name": "#143 Snorlax",
+        "name": "Snorlax",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#144",
         "photo": FindPokemonImage('articuno'),
-        "name": "#144 Articuno",
+        "name": "Articuno",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#145",
         "photo": FindPokemonImage('zapdos'),
-        "name": "#145 Zapdos",
+        "name": "Zapdos",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#146",
         "photo": FindPokemonImage('moltres'),
-        "name": "#146 Moltres",
+        "name": "Moltres",
         "alias": "",
         "type": [],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#147",
         "photo": FindPokemonImage('dratini'),
-        "name": "#147 Dratini",
+        "name": "Dratini",
         "alias": "",
-        "type": [],
+        "type": [11],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#148",
         "photo": FindPokemonImage('dragonair'),
-        "name": "#148 Dragonair",
+        "name": "Dragonair",
         "alias": "",
-        "type": [],
+        "type": [11],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#149",
         "photo": FindPokemonImage('dragonite'),
-        "name": "#149 Dragonite",
+        "name": "Dragonite",
         "alias": "",
-        "type": [],
+        "type": [11, 4],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#150",
         "photo": FindPokemonImage('mewtwo'),
-        "name": "#150 Mewtwo ",
+        "name": "Mewtwo ",
         "alias": "",
-        "type": [],
+        "type": [7],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     },
     {
+        "id": "#151",
         "photo": FindPokemonImage('mew'),
-        "name": "#151 Mew",
+        "name": "Mew",
         "alias": "",
-        "type": [],
+        "type": [7],
         "egg_group": [],
-        "category": "",
-        "moves": []
+        "category_id": "",
+        "moves": [],
+        "region_id": 1,
+        "generation_id": 1
     }
 ]

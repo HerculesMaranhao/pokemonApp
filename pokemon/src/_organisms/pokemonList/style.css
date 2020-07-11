@@ -32,7 +32,6 @@
 }
 
 .currentPage {
-    border: 1px solid white;
     color: white;
     background-color: #ee4035;
 }
@@ -55,11 +54,11 @@
 }
 
 .button:disabled,
-.button[disabled]{
-  border: 1px solid #999999;
-  background-color: #cccccc;
-  color: #666666;
-  cursor: not-allowed;
+.button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
 }
 
 .select {

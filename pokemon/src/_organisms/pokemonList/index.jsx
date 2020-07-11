@@ -8,7 +8,7 @@ class PokemonList extends Component {
 
   state = {
     pagination: {
-      limit: 8,
+      limit: 16,
       offset: 0,
       total: 0
     },
@@ -101,7 +101,6 @@ class PokemonList extends Component {
         <div className="pagination">
           <select className="select"
             onChange={e => this.setState({ pagination: { ...this.state.pagination, limit: e.target.value, offset: 0 } }, this.loadPokemon)}>
-            <option value="8">8</option>
             <option value="16">16</option>
             <option value="32">32</option>
             <option value="64">64</option>
