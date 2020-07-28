@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@pokemon-app/server",
   "version": "1.0.0",
   "description": "Api server of pokemon app",
   "main": "index.js",
@@ -11,5 +11,8 @@
     "express": "^4.17.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.24"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/HerculesMaranhao/pokemonApp.git",
+  "license": "MIT",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start:client": "yarn workspace @pokemon-app/client start",
+    "start:server": "yarn workspace @pokemon-app/server start"
+  }
+}
